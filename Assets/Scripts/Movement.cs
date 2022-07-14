@@ -6,8 +6,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    [SerializeField] float mainThrust = 500f;
-    [SerializeField] float rotationThrust = 35f;
+    [SerializeField] float mainThrust = 200f;
+    [SerializeField] float rotationThrust = 50f;
     [SerializeField] AudioClip mainEngine;
 
     [SerializeField] ParticleSystem mainEngineParticles;
