@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
 {
 
     [SerializeField] float mainThrust = 200f;
-    [SerializeField] float rotationThrust = 50f;
+    [SerializeField] float rotationThrust = 100f;
     [SerializeField] AudioClip mainEngine;
 
     [SerializeField] ParticleSystem mainEngineParticles;
@@ -68,8 +68,7 @@ public class Movement : MonoBehaviour
         }
         if (!mainEngineParticles.isPlaying)
         {
-            //mainEngineParticles.Play();
-            Debug.Log("Particle System Playing");
+            mainEngineParticles.Play();
         }
     }
 
